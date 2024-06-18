@@ -45,3 +45,17 @@ You can reach the open-api-ui via http://{HOST}:{9595-9597}/swagger-ui.html
 Prometheus
 You can reach prometheus page via http://{HOST}:9090
 
+
+
+
+Grafana
+You can reach grafana page via http://{HOST}:3000 - GF_SECURITY_ADMIN_PASSWORD=admin
+
+
+Maven Run
+To build and run the application with Maven, please follow the directions below;
+
+$ cd open-weather
+$ mvn clean install
+$ mvn spring-boot:run
+You can reach the swagger-ui via http://{HOST}:8080/swagger-ui.html
